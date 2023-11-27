@@ -15,52 +15,44 @@
 <img alt="Upload videos IA" title="#Upload IA" src="./public/images/../../upload-ai-web/public/images/upload-ia.jpg" />
 
 
-## :memo: Description
-ai-upload-video is an interactive platform that allows users to record their travels around the world and create a personalized map with markers representing the places they have visited. By clicking on a marker on the map, a detailed page of the chosen location is displayed, containing photos and descriptions provided by the user.
+## :memo: Descrição
+* Faça upload de vídeos e com ajuda da IA você conseguirá fazer a trascrição do vídeo, resumo, gerar palavras-chave, pequena descrição para Youtube e muito mais.
 
 
-## :books: How it works
-* You will be able to register your places in a CMS, including a description, interesting facts, etc., and upload photos. The location will be added to the interactive map.
+## :books: Como funciona
+* No lado superior direito você poderá fazer o upload do vídeo, no pronpt superior descreva o que deseja que a IA faça com o texto da transcrição. 
+* Você pode utilizar a variável '{transcription}' no seu prompt para adicionar o conteúdo da transcrição do vídeo selecionado.
 
 
-## :wrench: Technologies
-* This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## :wrench: Tecnologias
+* Este é um projeto [Next.js](https://nextjs.org/) inicializado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Other technologies used in this project:
+Outras tecnologias utilizadas neste projeto:
 * [Typescript](https://www.typescriptlang.org/)
-* [Leaflet](https://leafletjs.com/)
-* [react-leaflet](https://react-leaflet.js.org/)
-* [Mapbox](https://www.mapbox.com/)
-* [Styled components](https://styled-components.com/)
-* [Jest](https://jestjs.io/)
-* [GraphQL](https://graphql.org/)
-* [GraphQL-Codegen](https://the-guild.dev/graphql/codegen/docs/config-reference/codegen-config)
-* [Hygraph CMS](https://app.hygraph.com/)
+* [Vite](https://vitejs.dev/)
+* [TailwindCSS](https://tailwindcss.com/)
+* [OpenAI API](https://platform.openai.com/docs/api-reference)
 
 
 ## :running: Getting Started
 
-First, clone the repository 
+Primeiro, clone o repositório
 
-Install dependencies:
+Instale as dependências:
 ```bash
 yarn install
 ```
 
-Run the development server:
+Execute o servidor de desenvolvimento:
 ```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:5173/](http://localhost:5173/) com seu navegador para ver o resultado.
 
-## :rocket: Production Deployment
+## Licença
 
-Vercel: [ai-upload-video](https://ai-upload-video-edsoncandido73.vercel.app/)
-
-## License
-
-This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more details.
+Este projeto está licenciado sob a licença do MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-<sup>Project developed by [Edson Cândido](https://github.com/EdsonCandido73) through the advanced NextJS course - Willian Justen.</sup>
+<sup>Projeto desenvolvido por [Edson Cândido](https://github.com/EdsonCandido73).</sup>
