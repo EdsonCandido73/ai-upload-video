@@ -40,7 +40,7 @@ export function App() {
         <div className="flex items-center gap-3">
           <span className="text-sm text-muted-foreground">Desenvolvido com ❤ por EC Sistemas</span>
           <Separator orientation='vertical' className='h-6' />
-          <Button variant="outline">
+          <Button variant="outline" onClick={() => window.open('https://github.com/EdsonCandido73/ai-upload-video', '_blank')}>
             <Github className='w-4 h-4 mr-2' />
             Github
           </Button>
