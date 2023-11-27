@@ -2,9 +2,7 @@
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EdsonCandido73/ai-upload-video?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EdsonCandido73/ai-upload-video">
-
+  
   <a href="https://github.com/EdsonCandido73/ai-upload-video/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EdsonCandido73/ai-upload-video">
   </a>
