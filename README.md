@@ -31,6 +31,7 @@ Outras tecnologias utilizadas neste projeto:
 * [Typescript](https://www.typescriptlang.org/)
 * [Vite](https://vitejs.dev/)
 * [TailwindCSS](https://tailwindcss.com/)
+* [Prisma ORM](https://www.prisma.io/)
 * [OpenAI API](https://platform.openai.com/docs/api-reference)
 
 
@@ -43,8 +44,14 @@ Instale as dependências:
 yarn install
 ```
 
-Execute o servidor de desenvolvimento:
+Executar o servidor da API:
 ```bash
+cd upload-ai-api
+yarn dev
+```
+Executar o front-end em ambiente de desenvolvimento:
+```bash
+cd upload-ai-web
 yarn dev
 ```
 
